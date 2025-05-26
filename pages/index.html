@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Event Center</title>
+    <!-- Required meta tags -->
+    <!--Imported beginning code using bs5, importing bootstrap css and js-->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <!--Custon CSS-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/">Event Center</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="events.html">Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pricing.html">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="hero-image">
+            <div class="container-fluid text-white text-center py-5">
+                <h1 id="title">Welcome to the Woodshop</h1>
+                <button onclick="changeText()">Click Me</button>
+                <p class="text-main">Gather where tradition meets craft. Nestled beside our Bloomington Brewpub, this
+                    modern facility is
+                    where sour ales come to life—brewed with care, aged in oak, and expertly bottled. Designed with the
+                    spirit of a classic workshop in mind, it’s a dynamic space perfect for hosting unforgettable events
+                    in a setting full of character and creativity.</p>
+            </div>
+        </div>
+
+        <section class="events py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 d-flex">
+                        <div class="card h-100">
+                            <img src="https://media.istockphoto.com/id/1455769561/photo/stylish-rings-flowers-on-wooden-table-background-letters-from-the-bride-and-groom-vows.jpg?s=1024x1024&w=is&k=20&c=forQJVvv3NC-r5iHoNoWEftKxL8j7Ju1KSnrLrEHUIc="
+                                class="card-img-top" alt="Upland Wedding">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Weddings</h5>
+                                <p class="card-text">Looking for a wedding venue that’s anything but ordinary? The
+                                    Woodshop offers a warm, rustic setting filled with charm, character, and handcrafted
+                                    details. Surrounded by oak barrels and the glow of twinkle lights, it’s the perfect
+                                    backdrop for your big day. Intimate, inviting, and unforgettable—let The Woodshop be
+                                    where your forever begins.</p>
+                                <a href="events.html" class="btn btn-primary">Check us out</a>
+                            </div>
+                        </div>
+                    </div> <!--End Card 1-->
+
+                    <div class="col-md-4 d-flex">
+                        <div class="card h-100">
+                            <img src="https://media.istockphoto.com/id/665393236/photo/business-people-meeting-eating-discussion-cuisine-party-concept.jpg?s=1024x1024&w=is&k=20&c=gh1qRVGsZLUzZS4QcM_2AgkoUpjda5ktddkwMpIOXWs="
+                                class="card-img-top" alt="Upland Conference">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Conferences</h5>
+                                <p class="card-text">Elevate your next meeting, seminar, or corporate gathering in a
+                                    space that inspires. The Woodshop combines modern amenities with a distinctive,
+                                    craft-driven atmosphere—perfect for sparking ideas and building connections. With
+                                    flexible layouts, on-site brews, and a unique setting, your event will be anything
+                                    but ordinary. Book now to make a lasting impression.</p>
+                                <a href="events.html" class="btn btn-secondary">Check us out</a>
+                            </div>
+                        </div>
+                    </div> <!--End Card 2-->
+
+                    <div class="col-md-4 d-flex">
+                        <div class="card h-100">
+                            <img src="https://media.istockphoto.com/id/1333075831/photo/friends-having-wine-tasting-or-celebrating-event-with-wine.jpg?s=1024x1024&w=is&k=20&c=TUHcyx-8tViREWEHbiErJinGwxgGFHu5PxzrkV-KODk="
+                                class="card-img-top" alt="Upland Bar">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Friends and Family Events</h5>
+                                <p class="card-text">Looking for a unique spot to host your next birthday, reunion, or
+                                    friends-and-family gathering? The Woodshop offers a one-of-a-kind setting surrounded
+                                    by oak barrels, handcrafted brews, and warm, rustic charm. With plenty of space and
+                                    a laid-back vibe, it’s the perfect place to raise a glass and make lasting memories
+                                </p>
+                                <a href="events.html" class="btn btn-success">Check us out</a>
+                            </div>
+                        </div>
+                    </div> <!--End Card 3-->
+
+                </div> <!--End Row-->
+            </div> <!--End Container-->
+        </section>
+    </main>
+<footer>
+  <p>&copy; 2025 Event Center</p>
+</footer>
+
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
